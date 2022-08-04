@@ -13,17 +13,20 @@ $ npm start
 ``` 
 **ホットリロード(windows)**
 - windowsの場合jsonが確実、いずれかを試す
-```bash
+
 package.js
+```
 "scripts": {
   "start": "WATCHPACK_POLLING=true react-scripts start",
   "build": ...
 },
-
+```
 .env
+```
 CHOKIDAR_USEPOLLING=true
-
+```
 docker-compose.yml
+```
     environment:
       - ....
       - CHOKIDAR_USEPOLLING=true
