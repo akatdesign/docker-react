@@ -2,7 +2,7 @@
 
 
 **環境構築**
-file name frontで作成
+- file name frontで作成
 ``` bash
 $ cd docker-react/
 $ docker-compose build
@@ -12,7 +12,7 @@ $ npx create-react-app . --template typescript --use-npm
 $ npm start
 ``` 
 **ホットリロード(windows)**
-windowsの場合jsonが確実、いずれかを試す
+- windowsの場合jsonが確実、いずれかを試す
 ```bash
 package.js
 "scripts": {
