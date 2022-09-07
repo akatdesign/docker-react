@@ -2,7 +2,6 @@
 
 
 **環境構築**
-- file name frontで作成
 ```
 $ cd docker-react/
 $ docker-compose build
