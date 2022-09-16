@@ -13,7 +13,7 @@ $ npm start(ホットリロード,eslint,prettierの設定の後)
 **ホットリロード(windows)**
 - windowsの場合jsonが確実、いずれかを試す
 
-package.js
+package.json
 ```
 "scripts": {
   "start": "WATCHPACK_POLLING=true react-scripts start",
